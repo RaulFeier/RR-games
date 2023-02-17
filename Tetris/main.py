@@ -16,7 +16,7 @@ back_ground= pygame.image.load('Tetris/Pictures/back_ground.png')
 def Game_Window():
     win.blit(back_ground, (0, 0))
     font = pygame.font.SysFont('Fira code', 30)
-    eep = font.render('O iubesc pe Riana',0 , ('Purple'))
+    eep = font.render('il iubesc pe Raul',0 , ('Purple'))
     win.blit(eep, (screen_width // 2, screen_high // 2))
     pygame.display.update()
 
